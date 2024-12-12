@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    margin: -50px 0px 0px 160px;
+}
+body{
+    background-color: black;
+}
+.navebarcontainer {
+    display: flex;
+    margin-left: 70px;
+    font-style: inherit;
+
+}
+   
+.item {
+    color: white;
+    display: inline-block;
+    justify-content: space-between;
+    font-size: medium;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: .035em;
+    padding: 30px;
+   
+
+}
+.prime{
+    width: 80px;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 55px;
+}
+.item:hover{
+    color: black;
+    background-color:#efeaea;
+    border-radius: 5px;
+      
+}
+.navebarcontainer2{
+    display: flex;
+padding: 10px;
+    margin-top: 25px;
+    margin-left: 70px
+    
+}
+
+.joinprime{
+    padding: 10px 20px; 
+    font-size: 18px; 
+    color: white; 
+    border: none;  
+    border-radius: 10px;
+     cursor: pointer; 
+     margin-left: 20px;
+    background-color:#1b65ee;
+
+}
+.btn2{
+    font-size: medium;
+    color:rgb(238, 233, 233);
+    background-color: #1b65ee;
+    font-weight: bold;
+    border: none;
+    
+}
+.joinprime,.btn2:hover{
+
+    color: rgb(241, 236, 236); 
+    transition: color 0.3s;
+    background-color:#1b65ee;
+
+}
+.welcome{
+    width: 50%;
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.joinprime2{
+    padding: 10px 20px; 
+    font-size: 18px; 
+    color: rgb(15, 14, 14); 
+    border: none;  
+     cursor: pointer; 
+     transition: background-color 0.3s ease;
+     
+}
+.btn3{
+    font-size: medium;
+    color:rgb(8, 0, 0);
+    font-weight: bold;
+    border: none;
+    margin-left: 70px;
+    height: 60px;
+    width: 200px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+.title{
+    font-weight: bolder;
+}
+.Rent{
+    font-size: 18px; 
+    color: rgb(15, 14, 14); 
+    border: none;  
+     cursor: pointer; 
+     transition: background-color 0.3s ease;
+}
+.btn4{
+    font-size: medium;
+    color:rgb(8, 0, 0);
+    font-weight: bold;
+    border: none;
+    margin-left: 90px;
+    height: 60px;
+    width: 150px;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 20px;
+}
